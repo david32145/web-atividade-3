@@ -23,10 +23,10 @@
             </p>
           </div>
           <div class="col-2">
-            <p class="card-text"><strong>Lat: </strong>{{user.address.lat}}</p>
+            <p class="card-text"><strong>Lat: </strong>{{user.address.geo.lat}}</p>
           </div>
           <div class="col-2">
-            <p class="card-text"><strong>lng: </strong>{{user.address.lng}}</p>
+            <p class="card-text"><strong>lng: </strong>{{user.address.geo.lng}}</p>
           </div>
         </div>
         <div class="row mt-2">

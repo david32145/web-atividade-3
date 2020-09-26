@@ -37,7 +37,7 @@ export default {
     }
   },
   mounted() {
-    httpClient.get("/todo")
+    httpClient.get("/todos")
       .then(response => {
         this.todos = response.data.filter(todo => todo.userId === 2 && todo.completed)
       })
